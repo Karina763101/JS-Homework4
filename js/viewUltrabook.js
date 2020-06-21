@@ -4,7 +4,7 @@ function ViewUltrabook(){
 
 ViewUltrabook.prototype = Object.create(ViewLaptop.prototype);
 
-ViewLaptop.prototype.clearInput = function(){
+ViewUltrabook.prototype.clearInput = function(){
     document.querySelector('#title2').value = '';
     document.querySelector('#ram2').value = '';
     document.querySelector('#year2').value = '';
@@ -14,7 +14,7 @@ ViewLaptop.prototype.clearInput = function(){
     document.querySelector('#weight2').value = '';
 };
 
-ViewLaptop.prototype.checkWeight = function(){
+ViewUltrabook.prototype.checkWeight = function(){
     if(document.querySelector('#weight2').value > 1.5){
         alert('Вес у Ultrabook не должен привышать 1.5кг!');
         document.querySelector('#weight2').value = '';
