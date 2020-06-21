@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <form id="laptop">
+            <p>Laptop</p>
+            <div>
+                <label for="title">Название</label>
+                <input type="text" id="title">
+            </div>
+            <div>
+                <label for="ram">Размер оперативной памяти</label>
+                <input type="text" id="ram">
+            </div>
+            <div>
+                <label for="year">Год выпуска</label>
+                <input type="text" id="year">
+            </div>
+            <div>
+                <label for="cpu">Процессор</label>
+                <input type="text" id="cpu">
+            </div>
+            <div>
+                <label for="cores">Количество ядер</label>
+                <input type="text" id="cores">
+            </div>
+            <div>
+                <label for="lapCase">Материал корпуса</label>
+                <input type="text" id="lapCase">
+            </div>
+            <div>
+                <label for="weight">Вес</label>
+                <input type="text" id="weight">
+            </div>
+            <div>
+                <input type="submit" value="Добавить">
+            </div>
+        </form>
+
+        <form id="ultrabook">
+            <p>Ultrabook</p>
+            <div>
+                <label for="title2">Название</label>
+                <input type="text" id="title2">
+            </div>
+            <div>
+                <label for="ram2">Размер оперативной памяти</label>
+                <input type="text" id="ram2">
+            </div>
+            <div>
+                <label for="year2">Год выпуска</label>
+                <input type="text" id="year2">
+            </div>
+            <div>
+                <label for="cpu2">Процессор</label>
+                <input type="text" id="cpu2">
+            </div>
+            <div>
+                <label for="cores2">Количество ядер</label>
+                <input type="text" id="cores2">
+            </div>
+            <div>
+                <label for="lapCase2">Цвет корпуса</label>
+                <input type="text" id="lapCase2">
+            </div>
+            <div>
+                <label for="weight2">Вес</label>
+                <input type="text" id="weight2">
+            </div>
+            <div>
+                <input type="submit" value="Добавить">
+            </div>
+        </form>
+
+        <div id="list-laptops">
+            <ul class="head_title">
+                <li>Название</li>
+                <li>Размер ОЗУ</li>
+                <li>Год выпуска</li>
+                <li>Процессор</li>
+                <li>Количество ядер</li>
+                <li>Материал/цвет корпуса</li>
+                <li>Вес</li>
+                <li>Действие</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./js/laptop.js"></script>
+    <script src="./js/ultrabook.js"></script>
+    <script src="./js/viewlaptop.js"></script>
+    <script src="./js/viewUltrabook.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

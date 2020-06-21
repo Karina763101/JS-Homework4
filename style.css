@@ -1,0 +1,41 @@
+/* .container{
+    position: relative;
+} */
+#laptop{
+    display: inline-block;
+}
+#ultrabook{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
+.head_title, ul{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #000;
+    list-style-type: none;
+}
+
+.head_title, p{
+    font-weight: bolder;
+}
+
+label{
+    width: 200px;
+    display: inline-block;
+}
+
+li{
+    width: 12.5%;
+    text-align: center;
+}
+
+.no_success{
+    background-color: red;
+}
+
+.success{
+    background-color: green;
+}
