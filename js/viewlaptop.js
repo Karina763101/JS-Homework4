@@ -76,6 +76,7 @@ ViewLaptop.prototype.getInfo = function(obj){
         btnInfo.addEventListener('click', function(){
             alert('Вес: ' + obj.getWeight() + '\nМатериал корпуса: ' + obj.getLapCase() + '\nГод выпуска: ' + obj.getYear());
             event.preventDefault();
+            event.stopImmediatePropagation();
         });
     }
 };
